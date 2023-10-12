@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html lang="pl"><head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Zad 15</title>
-	</head>
-	<body>
-		<ol>
-			<li>Powiatowe Centrum Kształcenia Zawodowego i Ustawicznego
-			<ol class="rzym" type="I">
-				<li>Technikum
-				<ol class="alfa" type="a" reversed="reversed">
-					<li>Technikum Gastronomiczne</li>
-					<li>Technikum Hotelarskie</li>
-					<li>Technikum Informatyczne
-					<ul class="kwadrat" type="square">
-						<li>Klasa 1 K</li>
-						<li>Klasa 2 K</li>
-						<li>Klasa 3 K</li>
-						<li>Klasa 4 K</li>
-					</ul></li>
-					<li>Technikum Ekonomiczne</li>
-				</ol></li>
-				<li>Szkoła Branżowa
-				<ul class="kolo" type="circle">
-					<li>I stopinia</li>
-					<li>II stopinia</li>
-				</ul></li>
-			</ol></li>
-		</ol>
-	
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zad 15</title>
+    <style>
+        ol.rzym {
+            color: red;
+        }
 
+        ol.alfa {
+            color: green;
+        }
+
+        ul.kwadrat {
+            list-style-type: square;
+            color: orange;
+        }
+
+        ul.kolo {
+            list-style-type: circle;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ol class="rzym">
+        <li>Powiatowe Centrum Kształcenia Zawodowego i Ustawicznego
+            <ol class="rzym" type="I">
+                <li>Technikum
+                    <ol class="alfa" type="a" reversed="reversed">
+                        <li>Technikum Gastronomiczne</li>
+                        <li>Technikum Hotelarskie</li>
+                        <li>Technikum Informatyczne
+                            <ul class="kwadrat">
+                                <li>Klasa 1 K</li>
+                                <li>Klasa 2 K</li>
+                                <li>Klasa 3 K</li>
+                                <li>Klasa 4 K</li>
+                            </ul>
+                        </li>
+                        <li>Technikum Ekonomiczne</li>
+                    </ol>
+                </li>
+                <li>Szkoła Branżowa
+                    <ul class="kolo">
+                        <li>I stopnia</li>
+                        <li>II stopnia</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ol>
 </body>
 </html>
